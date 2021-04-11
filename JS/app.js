@@ -16,8 +16,7 @@ const seattle = {
   }
 };
 seattle.cusAvg(seattle.min,seattle.max);
-console.log(seattle.randomCusPerHour);
-console.log(seattle.cookiesPurchasedPerHour);
+
 
 let bodyTag1 = document.getElementById('body-main');
 let heading1 = document.createElement('h2');
@@ -29,7 +28,7 @@ bodyTag1.appendChild(ul1);
 
 let li1=null;
 let total1=0;
-for(let i =6 ; i <12 ; i++){
+for(let i =6 ; i <13 ; i++){
   li1 = document.createElement('li');
   ul1.appendChild(li1);
   li1.textContent = `${i}am: ${seattle.cookiesPurchasedPerHour[i]} cookies`;
@@ -63,8 +62,7 @@ const tokyo = {
   }
 };
 tokyo.cusAvg(tokyo.min,tokyo.max);
-console.log(tokyo.randomCusPerHour);
-console.log(tokyo.cookiesPurchasedPerHour);
+
 
 let bodyTag2 = document.getElementById('body-main');
 let heading2 = document.createElement('h2');
@@ -76,7 +74,7 @@ bodyTag2.appendChild(ul2);
 
 let li2=null;
 let total2=0;
-for(let i =6 ; i <12 ; i++){
+for(let i =6 ; i <13 ; i++){
   li2 = document.createElement('li');
   ul2.appendChild(li2);
   li2.textContent = `${i}am: ${tokyo.cookiesPurchasedPerHour[i]} cookies`;
@@ -109,8 +107,7 @@ const dubai = {
   }
 };
 dubai.cusAvg(dubai.min,dubai.max);
-console.log(dubai.randomCusPerHour);
-console.log(dubai.cookiesPurchasedPerHour);
+
 
 let bodyTag3 = document.getElementById('body-main');
 let heading3 = document.createElement('h2');
@@ -122,7 +119,7 @@ bodyTag3.appendChild(ul3);
 
 let li3=null;
 let total3=0;
-for(let i =6 ; i <12 ; i++){
+for(let i =6 ; i <13 ; i++){
   li3 = document.createElement('li');
   ul3.appendChild(li3);
   li3.textContent = `${i}am: ${dubai.cookiesPurchasedPerHour[i]} cookies`;
@@ -155,8 +152,7 @@ const paris = {
   }
 };
 paris.cusAvg(paris.min,paris.max);
-console.log(paris.randomCusPerHour);
-console.log(paris.cookiesPurchasedPerHour);
+
 
 let bodyTag4 = document.getElementById('body-main');
 let heading4 = document.createElement('h2');
@@ -168,7 +164,7 @@ bodyTag4.appendChild(ul4);
 
 let li4=null;
 let total4=0;
-for(let i =6 ; i <12 ; i++){
+for(let i =6 ; i <13 ; i++){
   li4 = document.createElement('li');
   ul4.appendChild(li4);
   li4.textContent = `${i}am: ${paris.cookiesPurchasedPerHour[i]} cookies`;
@@ -200,8 +196,7 @@ const lima = {
   }
 };
 lima.cusAvg(lima.min,lima.max);
-console.log(lima.randomCusPerHour);
-console.log(lima.cookiesPurchasedPerHour);
+
 
 let bodyTag5 = document.getElementById('body-main');
 let heading5 = document.createElement('h2');
@@ -213,7 +208,7 @@ bodyTag5.appendChild(ul5);
 
 let li5=null;
 let total5=0;
-for(let i =6 ; i <12 ; i++){
+for(let i =6 ; i <13 ; i++){
   li5 = document.createElement('li');
   ul5.appendChild(li5);
   li5.textContent = `${i}am: ${lima.cookiesPurchasedPerHour[i]} cookies`;

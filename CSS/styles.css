@@ -1,0 +1,78 @@
+*{
+  @import url(https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto&family=Roboto+Slab&display=swap);
+  margin:0;
+}
+
+header {
+  background-color:darkslategrey;
+  color:#f6f6f6 ;
+  height: 100px;
+}
+header h1 {
+  font-family: Roboto;
+  color: #f6f6f6;
+  float: left;
+  width: 30%;
+  font-size: 50px;
+  padding-left: 150px;
+  padding-top: 15px;
+}
+
+header nav {
+  float: right;
+  width: 35%;
+}
+header nav ul li {
+  font-family: verdana;
+  display: inline-block;
+  margin: 25px;
+  font-size: larger;
+  padding-top: 13px;
+}
+header nav ul a:hover {
+  background-color:cadetblue;
+}
+header nav ul li a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: larger;
+  color: #f6f6f6;
+}
+
+#body-main h2{
+  margin: 20px;
+  margin-left: 30px;
+  padding-left: 40px;
+  padding-top: 20px;
+  color:darkslategrey;
+  font-family: arial;
+  font-size: 30px;
+}
+
+#body-main ul li{
+  margin-left: 25px;
+  padding: 5px;
+  color: darkred;
+  font-family: georgia;
+  font-size: 20px;
+}
+
+footer{
+  height: 100px;
+  background-color:darkslategrey;
+  color: #f6f6f6;
+}
+
+footer p{
+  text-align: center;
+  font-size: 30px;
+  vertical-align: middle;
+  line-height: 100px;
+} 
+
+#cont  {
+  font-size: 30px;
+  margin: 30px;
+  Padding: 30px;
+  text-align: center;
+}
