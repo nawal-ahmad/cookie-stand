@@ -48,6 +48,7 @@ seattle.cusAvg(seattle.min,seattle.max);
 seattle.render();
 
 
+
 const tokyo = {
   min:3,
   max:24,
@@ -88,8 +89,6 @@ const tokyo = {
     li2 = document.createElement('li');
     ul2.appendChild(li2);
     li2.textContent = `Total: ${total2} cookies`;
-
-
   }
 };
 tokyo.cusAvg(tokyo.min,tokyo.max);
@@ -231,7 +230,6 @@ const lima = {
     li5 = document.createElement('li');
     ul5.appendChild(li5);
     li5.textContent = `Total: ${total5} cookies`;
-
   }
 };
 lima.cusAvg(lima.min,lima.max);
