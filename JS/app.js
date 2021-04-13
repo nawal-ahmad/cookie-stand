@@ -242,7 +242,7 @@
 
 let hours = ['6:00am ',' 7:00am ',' 8:00am ',' 9:00am ',' 10:00am ',' 11:00am ',' 12:00pm ',' 1:00pm ',' 2:00pm ',' 3:00pm ',' 4:00pm ',' 5:00pm ',' 6:00pm ',' 7:00pm '];
 let objectsArr=[];
-let branchTotal=0;
+
 let perHourTotal=[0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 //For Table
 let bodyTag = document.getElementById('body-main');
@@ -264,17 +264,15 @@ Branch.prototype.calCustomerPerHour = function () {
 
 // Cookies Purchased Per Hour + daily location Total and toal per hour in all branches
 Branch.prototype.calCookiesPerHour = function () {
-  let branchTotal=0;
   let perHourTotal=[];
   let totalPerHour=[];
-  let totalPerLocation=0;
+  let totalPerLocation=[];
 
   for (let i = 0; i < hours.length; i++) {
     this.cookiesPurchasedByHour.push(Math.ceil(this.randomCusPerHour[i] * this.avgCookies));
     totalPerLocation[i]=totalPerLocation[i]+this.cookiesPurchasedByHour[i],
     totalPerHour=totalPerHour+this.cookiesPurchasedByHour[i];
   }
-  this.totalPerLocation.push(branchTotal);
   this.totalPerHour.push(perHourTotal);
   return this.cookiesPurchasedByHour;
 };
