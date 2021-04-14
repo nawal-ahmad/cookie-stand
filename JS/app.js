@@ -117,12 +117,12 @@ function handleSubmitting(event){
   console.log(min);
   console.log(max);
   console.log(avg);
-  table.deleteRow(-1);
-  // let rowCount = table.rows.length;
-  // table.deleteRow(rowCount-1);
+  let rowCount = table.rows.length;
+  table.deleteRow(rowCount-1);
   newBranch.calCustomerPerHour();
   newBranch.calCookiesPerHour();
   newBranch.render();
+  tableFooter();
 }
 
 
