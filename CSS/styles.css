@@ -22,7 +22,7 @@ header h1 {
 
 header nav {
   float: right;
-  width: 60%;
+  width: 65%;
 }
 
 header nav ul li {
@@ -50,7 +50,6 @@ header img {
   margin-bottom: 2%;
 }
 
- 
 #welcome{
   margin:0% 10%;
   text-align: center;
@@ -128,8 +127,10 @@ img {
 }
 
 #foot img{
-  width: 48%;
+  display: inline-block;
+  width: 47%;
   height:18.75em;
+  float: right;
 }
 
 
@@ -219,9 +220,9 @@ fieldset label{
   background-color:#F1F3F4;
 }
 table, th, td {
-  margin: 1% 5%;
-  width: 60%;
-  padding: 1em;
+  margin: 1% 1%;
+  width: 80%;
+  padding: 0.75em;
   border: 1px solid #ddd;
   text-align: center;
   color: #543632;
