@@ -22,7 +22,7 @@ header h1 {
 
 header nav {
   float: right;
-  width: 45%;
+  width: 60%;
 }
 
 header nav ul li {
@@ -45,7 +45,7 @@ header nav ul li a {
 }
 
 header img {
-  display: block;
+  display: inline-block;
   width: 99%;
   margin-bottom: 2%;
 }
@@ -54,6 +54,7 @@ header img {
 #welcome{
   margin:0% 10%;
   text-align: center;
+  display: block;
 }
 
 #welcome h2{
@@ -122,6 +123,8 @@ img {
 
 #foot {
   margin: 0 10%;
+  width: 80%;
+
 }
 
 #foot img{
@@ -217,7 +220,7 @@ fieldset label{
 }
 table, th, td {
   margin: 1% 5%;
-  width: 80%;
+  width: 60%;
   padding: 1em;
   border: 1px solid #ddd;
   text-align: center;
