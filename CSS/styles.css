@@ -58,6 +58,7 @@ header nav ul li a {
 }
 
 footer{
+  clear:both;
   height: 100px;
   background-color:darkslategrey;
   color: #f6f6f6;
@@ -75,4 +76,50 @@ footer p{
   margin: 30px;
   Padding: 30px;
   text-align: center;
+}
+
+main{
+  padding: 20px;
+  font-size: larger;
+}
+header img{
+  width: 100%;
+  hight: 50px;
+}
+img {
+ display:inline-block;
+ float: right;
+ margin: 10px;
+ width: 25%;
+}
+#welcome{
+  text-align: center;
+  font-size: larger;
+  margin: 20px;
+}
+#welcome h2,h3,p{
+  padding: 10px;
+  margin: 10px;
+
+}
+
+.gallery img{
+  width:444px;
+  height: 200px;
+  margin: auto;
+}
+#rest img{
+  width: 48%;
+  height:300px;
+}
+.cont {
+  background-color:#ddd;
+  width: 17%;
+  margin: 5px;
+  padding: 20px;
+  display: inline-block;
+  border: 0.3px;
+}
+.cont ul li {
+  list-style: none;
 }
